@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JNh-X6-Ghw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="R49-zy-0Z6">
+            <objects>
+                <viewController id="XBk-3x-nmC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ql3-1I-pfh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mgc-fE-3Ko"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oMW-4W-4rI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPL-b9-pu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289.8550724637682" y="794.86607142857144"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="qfK-Im-U72">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JNh-X6-Ghw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我" image="my" selectedImage="my_fill" id="sOl-zG-qxm">
+                        <color key="badgeColor" red="0.15481075644493103" green="0.48716795444488525" blue="0.7789275050163269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4xl-24-MVk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XBk-3x-nmC" kind="relationship" relationship="rootViewController" id="WtE-if-zIW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OKD-ml-42B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.71014492753625" y="794.86607142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="my" width="32" height="32"/>
+        <image name="my_fill" width="32" height="32"/>
+    </resources>
+</document>

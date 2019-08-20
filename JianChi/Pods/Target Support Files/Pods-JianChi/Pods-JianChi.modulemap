@@ -1,0 +1,6 @@
+framework module Pods_JianChi {
+  umbrella header "Pods-JianChi-umbrella.h"
+
+  export *
+  module * { export * }
+}

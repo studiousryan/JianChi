@@ -3,12 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05630001ED4804C9215F7D7E /* Pods_JianChi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8AAFA51EF19DB3B9737F18 /* Pods_JianChi.framework */; };
+		342BB917EE09EDED70CF2BE0 /* Pods_JianChiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280C624E33E81A1C9628D947 /* Pods_JianChiTests.framework */; };
+		5A0765358DFFE93FAF3099D2 /* Pods_JianChiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF26C8F92D1E97E3B556AB1 /* Pods_JianChiUITests.framework */; };
+		94204A74230BEC4B007C5668 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94204A73230BEC4B007C5668 /* Home.storyboard */; };
+		94204A79230BECDC007C5668 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94204A78230BECDC007C5668 /* Me.storyboard */; };
+		94204A7E230BED50007C5668 /* NewGoal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94204A7D230BED50007C5668 /* NewGoal.storyboard */; };
 		9475D2E8230BD4E200FC89D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475D2E7230BD4E200FC89D5 /* AppDelegate.swift */; };
-		9475D2EA230BD4E200FC89D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475D2E9230BD4E200FC89D5 /* ViewController.swift */; };
 		9475D2ED230BD4E200FC89D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9475D2EB230BD4E200FC89D5 /* Main.storyboard */; };
 		9475D2F0230BD4E200FC89D5 /* JianChi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9475D2EE230BD4E200FC89D5 /* JianChi.xcdatamodeld */; };
 		9475D2F2230BD4E400FC89D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9475D2F1230BD4E400FC89D5 /* Assets.xcassets */; };
@@ -35,9 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277A1D42736DE66D54520845 /* Pods-JianChiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChiUITests.release.xcconfig"; path = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		280C624E33E81A1C9628D947 /* Pods_JianChiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JianChiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A25CDF488AFFADCABD28EBF /* Pods-JianChiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChiTests.debug.xcconfig"; path = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68AB6131FEA7051684A057DA /* Pods-JianChiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChiTests.release.xcconfig"; path = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C8AAFA51EF19DB3B9737F18 /* Pods_JianChi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JianChi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C771ED5CCE38F62DCFC775B /* Pods-JianChi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChi.release.xcconfig"; path = "Target Support Files/Pods-JianChi/Pods-JianChi.release.xcconfig"; sourceTree = "<group>"; };
+		7DF26C8F92D1E97E3B556AB1 /* Pods_JianChiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JianChiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94204A73230BEC4B007C5668 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		94204A78230BECDC007C5668 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		94204A7D230BED50007C5668 /* NewGoal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewGoal.storyboard; sourceTree = "<group>"; };
 		9475D2E4230BD4E200FC89D5 /* JianChi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianChi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475D2E7230BD4E200FC89D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9475D2E9230BD4E200FC89D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9475D2EC230BD4E200FC89D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9475D2EF230BD4E200FC89D5 /* JianChi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JianChi.xcdatamodel; sourceTree = "<group>"; };
 		9475D2F1230BD4E400FC89D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		9475D306230BD4E400FC89D5 /* JianChiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianChiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475D30A230BD4E400FC89D5 /* JianChiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianChiUITests.swift; sourceTree = "<group>"; };
 		9475D30C230BD4E400FC89D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1F881E47D9D1C9855D7364 /* Pods-JianChi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChi.debug.xcconfig"; path = "Target Support Files/Pods-JianChi/Pods-JianChi.debug.xcconfig"; sourceTree = "<group>"; };
+		CD490BDE95F012AAB2A3A2DD /* Pods-JianChiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianChiUITests.debug.xcconfig"; path = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05630001ED4804C9215F7D7E /* Pods_JianChi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342BB917EE09EDED70CF2BE0 /* Pods_JianChiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,159 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0765358DFFE93FAF3099D2 /* Pods_JianChiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D05F191F31F61143EBE73D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F881E47D9D1C9855D7364 /* Pods-JianChi.debug.xcconfig */,
+				7C771ED5CCE38F62DCFC775B /* Pods-JianChi.release.xcconfig */,
+				2A25CDF488AFFADCABD28EBF /* Pods-JianChiTests.debug.xcconfig */,
+				68AB6131FEA7051684A057DA /* Pods-JianChiTests.release.xcconfig */,
+				CD490BDE95F012AAB2A3A2DD /* Pods-JianChiUITests.debug.xcconfig */,
+				277A1D42736DE66D54520845 /* Pods-JianChiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94204A6F230BEC20007C5668 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				94204A85230BEEFA007C5668 /* Model */,
+				94204A87230BEEFA007C5668 /* View */,
+				94204A86230BEEFA007C5668 /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		94204A70230BEC20007C5668 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94204A82230BEEEA007C5668 /* Model */,
+				94204A84230BEEEA007C5668 /* View */,
+				94204A83230BEEEA007C5668 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		94204A71230BEC20007C5668 /* NewGoal */ = {
+			isa = PBXGroup;
+			children = (
+				94204A89230BEF06007C5668 /* Model */,
+				94204A8A230BEF06007C5668 /* View */,
+				94204A88230BEF06007C5668 /* Controller */,
+			);
+			path = NewGoal;
+			sourceTree = "<group>";
+		};
+		94204A72230BEC20007C5668 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				94204A81230BEECE007C5668 /* Controller */,
+				94204A7F230BEECD007C5668 /* Model */,
+				94204A80230BEECE007C5668 /* View */,
+				9475D2EE230BD4E200FC89D5 /* JianChi.xcdatamodeld */,
+				9475D2F6230BD4E400FC89D5 /* Info.plist */,
+				9475D2F1230BD4E400FC89D5 /* Assets.xcassets */,
+				9475D2E7230BD4E200FC89D5 /* AppDelegate.swift */,
+				9475D2EB230BD4E200FC89D5 /* Main.storyboard */,
+				9475D2F3230BD4E400FC89D5 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		94204A7F230BEECD007C5668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94204A80230BEECE007C5668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94204A81230BEECE007C5668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94204A82230BEEEA007C5668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94204A83230BEEEA007C5668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94204A84230BEEEA007C5668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94204A73230BEC4B007C5668 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94204A85230BEEFA007C5668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94204A86230BEEFA007C5668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94204A87230BEEFA007C5668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94204A78230BECDC007C5668 /* Me.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94204A88230BEF06007C5668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94204A89230BEF06007C5668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94204A8A230BEF06007C5668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94204A7D230BED50007C5668 /* NewGoal.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9475D2DB230BD4E200FC89D5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +248,8 @@
 				9475D2FE230BD4E400FC89D5 /* JianChiTests */,
 				9475D309230BD4E400FC89D5 /* JianChiUITests */,
 				9475D2E5230BD4E200FC89D5 /* Products */,
+				8D05F191F31F61143EBE73D1 /* Pods */,
+				F60EB76C78B00AB51F67E3DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +266,10 @@
 		9475D2E6230BD4E200FC89D5 /* JianChi */ = {
 			isa = PBXGroup;
 			children = (
-				9475D2E7230BD4E200FC89D5 /* AppDelegate.swift */,
-				9475D2E9230BD4E200FC89D5 /* ViewController.swift */,
-				9475D2EB230BD4E200FC89D5 /* Main.storyboard */,
-				9475D2F1230BD4E400FC89D5 /* Assets.xcassets */,
-				9475D2F3230BD4E400FC89D5 /* LaunchScreen.storyboard */,
-				9475D2F6230BD4E400FC89D5 /* Info.plist */,
-				9475D2EE230BD4E200FC89D5 /* JianChi.xcdatamodeld */,
+				94204A72230BEC20007C5668 /* Main */,
+				94204A70230BEC20007C5668 /* Home */,
+				94204A71230BEC20007C5668 /* NewGoal */,
+				94204A6F230BEC20007C5668 /* Me */,
 			);
 			path = JianChi;
 			sourceTree = "<group>";
@@ -128,6 +292,16 @@
 			path = JianChiUITests;
 			sourceTree = "<group>";
 		};
+		F60EB76C78B00AB51F67E3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8AAFA51EF19DB3B9737F18 /* Pods_JianChi.framework */,
+				280C624E33E81A1C9628D947 /* Pods_JianChiTests.framework */,
+				7DF26C8F92D1E97E3B556AB1 /* Pods_JianChiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9475D30F230BD4E400FC89D5 /* Build configuration list for PBXNativeTarget "JianChi" */;
 			buildPhases = (
+				C97305F2922E62FF15E93AB8 /* [CP] Check Pods Manifest.lock */,
 				9475D2E0230BD4E200FC89D5 /* Sources */,
 				9475D2E1230BD4E200FC89D5 /* Frameworks */,
 				9475D2E2230BD4E200FC89D5 /* Resources */,
+				5D2AA11CCC859B817E6F8C9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9475D312230BD4E400FC89D5 /* Build configuration list for PBXNativeTarget "JianChiTests" */;
 			buildPhases = (
+				934049CC7614CA5BB8405176 /* [CP] Check Pods Manifest.lock */,
 				9475D2F7230BD4E400FC89D5 /* Sources */,
 				9475D2F8230BD4E400FC89D5 /* Frameworks */,
 				9475D2F9230BD4E400FC89D5 /* Resources */,
@@ -170,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9475D315230BD4E400FC89D5 /* Build configuration list for PBXNativeTarget "JianChiUITests" */;
 			buildPhases = (
+				475B3B595EFDF8B29F148591 /* [CP] Check Pods Manifest.lock */,
 				9475D302230BD4E400FC89D5 /* Sources */,
 				9475D303230BD4E400FC89D5 /* Frameworks */,
 				9475D304230BD4E400FC89D5 /* Resources */,
@@ -234,7 +412,10 @@
 			files = (
 				9475D2F5230BD4E400FC89D5 /* LaunchScreen.storyboard in Resources */,
 				9475D2F2230BD4E400FC89D5 /* Assets.xcassets in Resources */,
+				94204A79230BECDC007C5668 /* Me.storyboard in Resources */,
 				9475D2ED230BD4E200FC89D5 /* Main.storyboard in Resources */,
+				94204A7E230BED50007C5668 /* NewGoal.storyboard in Resources */,
+				94204A74230BEC4B007C5668 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +435,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		475B3B595EFDF8B29F148591 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JianChiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2AA11CCC859B817E6F8C9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JianChi/Pods-JianChi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JianChi/Pods-JianChi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JianChi/Pods-JianChi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		934049CC7614CA5BB8405176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JianChiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97305F2922E62FF15E93AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JianChi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9475D2E0230BD4E200FC89D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9475D2EA230BD4E200FC89D5 /* ViewController.swift in Sources */,
 				9475D2E8230BD4E200FC89D5 /* AppDelegate.swift in Sources */,
 				9475D2F0230BD4E200FC89D5 /* JianChi.xcdatamodeld in Sources */,
 			);
@@ -434,6 +700,7 @@
 		};
 		9475D310230BD4E400FC89D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1F881E47D9D1C9855D7364 /* Pods-JianChi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +720,7 @@
 		};
 		9475D311230BD4E400FC89D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C771ED5CCE38F62DCFC775B /* Pods-JianChi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +740,7 @@
 		};
 		9475D313230BD4E400FC89D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A25CDF488AFFADCABD28EBF /* Pods-JianChiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +762,7 @@
 		};
 		9475D314230BD4E400FC89D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68AB6131FEA7051684A057DA /* Pods-JianChiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +784,7 @@
 		};
 		9475D316230BD4E400FC89D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD490BDE95F012AAB2A3A2DD /* Pods-JianChiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +805,7 @@
 		};
 		9475D317230BD4E400FC89D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277A1D42736DE66D54520845 /* Pods-JianChiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

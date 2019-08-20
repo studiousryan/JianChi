@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A2F091077051108C1C401A85C8469C /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83971092B7863F3F7008E5D062AC9C /* EMPageViewController.swift */; };
+		0732C39B7EFAE6D5EBF58BE96B2DC544 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECACE5D92D5C8124434081978942886 /* PagingLayout.swift */; };
+		11102B4B9E097D2B5BC63EBB459F1426 /* Pods-JianChiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E57F0B945950056D55EF4F94139AD6 /* Pods-JianChiTests-dummy.m */; };
+		1303E6EA741EACD7846141ED9031F23E /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C57F55D4F7BFFCFA6F809FF5E3F7E /* PagingItems.swift */; };
+		1573F20570335DE56E78257EBF9B8256 /* IndexedPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBB3F70D62C2A9EB32DFF2F2D8C88D /* IndexedPagingDataSource.swift */; };
+		1B43DFF37E2B0996E6BF14D463865174 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4821BCD67CF677DA0102D7907E1BBCE1 /* Parchment-dummy.m */; };
+		1BEC983282ECB260BFCC253F25B3EADF /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482093AA35F25412BC6B1A019DAA58C2 /* PagingCell.swift */; };
+		20F35680B868A2BA7F2372981AA4762B /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D88E06697E1F4B390B5514DBB710CC /* UIView+constraints.swift */; };
+		25E8BEE201122A67B65A410D7A208DEE /* Pods-JianChiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B62833C0E5A3704E85974F7461B3379E /* Pods-JianChiUITests-dummy.m */; };
+		25F2B340B64A10CE77E76FF9CBEF251B /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE0AF7259AA03B6789905BDB551AE8 /* PagingMenuItemSource.swift */; };
+		2915D6AFE77CA2DF94355E7E67803039 /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C683C067116F2A4F25EBCB182923A1 /* PagingMenuTransition.swift */; };
+		33008FCB9A93B9D2526C4BB61B6BA28F /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C560BC40EA2B49C20DBF0C9BBA0AF /* Tween.swift */; };
+		3987FAE32D0896764FE8182C0C01CF30 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F069859953B5B193EFFD52065E5FC1 /* PagingViewController.swift */; };
+		40B5F1893B16730050435DDA9ECA1502 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0394ACEEA8E627A23C3511B997A8EB /* PagingIndicatorOptions.swift */; };
+		4115DBB00FB09C2D7CAA8C8BA4CAAAA3 /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD63F5422BB67F30356DD069B987A55 /* PagingMenuHorizontalAlignment.swift */; };
+		42B3DC0A19A64E4FA7AC2C2948936559 /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57707048D872EEFE7A8AB6AC84DFDA4 /* PagingEvent.swift */; };
+		4529C0B8C8B5479AB48184D0111429A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		465CF6448333F3DA70F420FAC5C38277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4BE99EFDA1F5D070EA244FCB9A0F40F0 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2800E84ED65A1842DBFCA7B38E48A9D /* UIEdgeInsets.swift */; };
+		4C6C8FEBD135EDC5A67FBD7CFA5CFC62 /* Pods-JianChiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 917FCDEC40BB7A7103CBBC02744076BE /* Pods-JianChiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BBCA3E42BC9B672719DABADD4F757B /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084A481AAEF2D6C02197B45D1259845 /* PagingViewControllerInfiniteDataSource.swift */; };
+		5A66D7C01DC654F9A6A71C7BA43C1B12 /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65618CA2127ED864277DF4DC35D5205E /* PagingTitleCell.swift */; };
+		69E79799BE2A0EEE2C0829F74C078150 /* Pods-JianChi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D7AF497CCB2B57DFC8700DE8971918 /* Pods-JianChi-dummy.m */; };
+		725496F84F936CE13E1EE592D38503EF /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277CAF41E027E482B7A4D9EEE923C57A /* PagingViewControllerDataSource.swift */; };
+		73490428D03021FB72184F3FC4F32D96 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B503C81AF6187BA241D093C81F6BFE2 /* PagingContentInteraction.swift */; };
+		7614AE5D7692CFBE87130C62973B46C8 /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549F1230148118691DBB706F5548E0C /* PagingMenuInteraction.swift */; };
+		7C5377C9666CF5FFA91FACEA1DA1959A /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEDAA9973974C09C79702087ABAC650 /* PagingCellViewModel.swift */; };
+		844224876DCC95062DDF1728E0CFACB6 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA6CC89CD6BA5A80141CA6D59D7AA1 /* PagingMenuItemSize.swift */; };
+		847B8DEF63729E744035C52CBF843657 /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189D2AF420755785161D277E9D4CEAD /* PagingIndicatorView.swift */; };
+		853F9A3B293BB61B6C6FA915B82FDE80 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4A3FCD48BF19B838A4FBC1973DA22 /* PagingSelectedScrollPosition.swift */; };
+		87BD0F8A523B7ADAEC535E8C57D521F4 /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E8E865E151C84FFB1AD06E41EB3AD6 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89462BE029C799D254C3248240AA68AF /* PagingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E0DF9BB692365726BF4017AD4E0EC /* PagingStateMachine.swift */; };
+		8C4B7CA54D6E886663B0C58192258E30 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49C14E4FF8577E7D129F9B8637D225 /* PagingItem.swift */; };
+		8F01CAFD2544E2200E3A72E6F0179623 /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F0AC027EACA299BE963887EAFD2547 /* PagingBorderOptions.swift */; };
+		91D3AB8B27E5306AADAD7583CE991D45 /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F186D02DB8BA80E11B67F6950EF817 /* IndexedPagingItem.swift */; };
+		9EB1D9AE6FB9DF4CE3D088374C84A1D1 /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E972A3DE2ADD08A838A6B30CB59EF5 /* PagingBorderLayoutAttributes.swift */; };
+		A0B1CAEC6460A6B8A421AA80AE2B60AD /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560EB03EEC188D39B7E67D78DE5245C /* PagingDiff.swift */; };
+		A11FCED6C438C5001A5F643E73C6A9DC /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DE61814A699E3B717425CAE72EFF4 /* InvalidationState.swift */; };
+		A9FEE82B1197EB42876D9CBF4EBBBBE2 /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A0C8292FF75E222D99C039DA4385B7 /* PagingState.swift */; };
+		AA0A7F72F6F3D8B2DD64EE8BF42E5AD5 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC89A6242C38CB5B07C78FBE89A7CA0 /* PagingDirection.swift */; };
+		AFE5C10C376C277FAEA7B412A546A973 /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F0776E5A34ED1BECEFF3D172E402D6 /* PagingIndicatorLayoutAttributes.swift */; };
+		B5E2B5AD554C847CF097D789852A69D0 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2F34DE2D2D10B5778AA136F2A2D6D /* PagingViewControllerDelegate.swift */; };
+		BB73FEAF442D677A1489C574B0A03EF6 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354FF25BB2FB6239E97D6F58EAA5EE4 /* UIColor+interpolation.swift */; };
+		C7065FB582977DD26E216C133AD7BF85 /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C724B7040AB0110A14E854A8FDF6458 /* PagingOptions.swift */; };
+		C8D7B8A9C961DD3518B0685E3C1928D4 /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590C7665F880141EDC53C880701075D /* PagingBorderView.swift */; };
+		C91631BBF5C2EA03D78F84F520389E17 /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56644C30C83260F1B5E1CCBF210193E0 /* PagingDistance.swift */; };
+		D1D5159B03914B091C00A4482AA3D759 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE978BF8A7652B3CDC7A705F2AA3A81 /* PagingCellLayoutAttributes.swift */; };
+		D3D7639DBEDC9A4A6EF8D7D912B797A7 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE86525A0A662FBECB3D6137B64F4C9 /* PagingCollectionViewLayout.swift */; };
+		D3F4903BD68AA435F1D3B0EE64762CA8 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CBF3A75A213219116025A29D72674 /* PagingView.swift */; };
+		D702EEF48E67ED5C04E3B36878852881 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE15B7AB624B7DBB5E846CE9C47E9A /* PagingIndicatorMetric.swift */; };
+		DB8D341BB7FAF714CA034BED403F597E /* UIScrollView+near.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6897FC7D5418B454122F6386B50E7C /* UIScrollView+near.swift */; };
+		DFF92E0A875CD6361268905871CE419A /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF7E78446EA21D77328C93F4BF6FE5 /* PagingTransition.swift */; };
+		E248DB5999530258295CED7318DE7810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E6BC7D8DAB2C1CF27AF123B12192A9BB /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674508387DE7E9561653A6435A77808 /* PagingInvalidationContext.swift */; };
+		F1A8FA77B6B733AA481519E7BF4AA344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAE7397A2905180D07216EE67CE6CF68 /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569E2ACAD19AF90D7ECF8D9E94D9C71 /* PagingSizeCache.swift */; };
+		FBFEADB484CFF481E84830B6792F8922 /* FixedPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9349B45F2E216A1CE6A6F32F20524 /* FixedPagingViewController.swift */; };
+		FEB6208974962B92C53E8FACAAF62BD5 /* Pods-JianChi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 394287AA7C3120FE50EB74A322AA59FC /* Pods-JianChi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF62F9F66A78676A7D3831EE11132A86 /* Pods-JianChiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D14D9806A555493E7A93FB024A3614 /* Pods-JianChiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7728C543F9B560622CB9EED60C4CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997E883F4628C787B003CC4A9954C9DE;
+			remoteInfo = "Pods-JianChi";
+		};
+		8CEBEFE67D4843291AEB2641390EA416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997E883F4628C787B003CC4A9954C9DE;
+			remoteInfo = "Pods-JianChi";
+		};
+		E0263CAAD5BA98BAF639AC2780C758F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
+			remoteInfo = Parchment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF63B0DED53695CC614C5FB456531E1 /* Pods-JianChiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JianChiTests.modulemap"; sourceTree = "<group>"; };
+		19EFE413367493038FBBAD22F41EDF20 /* Pods_JianChiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JianChiTests.framework; path = "Pods-JianChiTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5794371C887422C5C241B0D5A2C843 /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
+		1FD63F5422BB67F30356DD069B987A55 /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		1FE978BF8A7652B3CDC7A705F2AA3A81 /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		2090A79E6CBC878C331AC5CBDBA08BBA /* Pods-JianChiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChiTests.release.xcconfig"; sourceTree = "<group>"; };
+		22D88E06697E1F4B390B5514DBB710CC /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		2549F1230148118691DBB706F5548E0C /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		25F069859953B5B193EFFD52065E5FC1 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		2674508387DE7E9561653A6435A77808 /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		277CAF41E027E482B7A4D9EEE923C57A /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		2A6897FC7D5418B454122F6386B50E7C /* UIScrollView+near.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+near.swift"; path = "Parchment/Extensions/UIScrollView+near.swift"; sourceTree = "<group>"; };
+		2B4C57F55D4F7BFFCFA6F809FF5E3F7E /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
+		2CA5F5CED9B762570C6A14801548A55E /* Pods-JianChiTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChiTests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3590C7665F880141EDC53C880701075D /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
+		394287AA7C3120FE50EB74A322AA59FC /* Pods-JianChi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JianChi-umbrella.h"; sourceTree = "<group>"; };
+		3BFE15B7AB624B7DBB5E846CE9C47E9A /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
+		3CA2F34DE2D2D10B5778AA136F2A2D6D /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		40F0776E5A34ED1BECEFF3D172E402D6 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		482093AA35F25412BC6B1A019DAA58C2 /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
+		4821BCD67CF677DA0102D7907E1BBCE1 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
+		487DE61814A699E3B717425CAE72EFF4 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
+		490A0AC93DEA7629BFE5D1774FD7E2D6 /* Pods-JianChi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChi.debug.xcconfig"; sourceTree = "<group>"; };
+		50071A9D48B8DCD7912A88DEAB5C8238 /* Pods-JianChi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChi-acknowledgements.plist"; sourceTree = "<group>"; };
+		5110F63E0801DCCEA75EC3DA7675BE07 /* Pods-JianChi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JianChi.modulemap"; sourceTree = "<group>"; };
+		54A9349B45F2E216A1CE6A6F32F20524 /* FixedPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedPagingViewController.swift; path = Parchment/Classes/FixedPagingViewController.swift; sourceTree = "<group>"; };
+		5569E2ACAD19AF90D7ECF8D9E94D9C71 /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		56644C30C83260F1B5E1CCBF210193E0 /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
+		58B601C29CBC325CB59D7961C06D7DE2 /* Pods-JianChiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CCFB87BF3BFE38283BA50DBDA6AB96F /* Pods_JianChi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JianChi.framework; path = "Pods-JianChi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638C560BC40EA2B49C20DBF0C9BBA0AF /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
+		65618CA2127ED864277DF4DC35D5205E /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
+		69AA4F6D3975F71644CEC0FC9E850C6A /* Pods-JianChiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JianChiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CF6C24CA190F23CAEDEF829070AFD20 /* Pods-JianChiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JianChiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70F186D02DB8BA80E11B67F6950EF817 /* IndexedPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingItem.swift; path = Parchment/Structs/IndexedPagingItem.swift; sourceTree = "<group>"; };
+		73E8E865E151C84FFB1AD06E41EB3AD6 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
+		7788337E38AF161CDE53DBA5416D24D8 /* Pods-JianChiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JianChiUITests.modulemap"; sourceTree = "<group>"; };
+		7A1CCABFD1B1F242DEC535A18B2642F4 /* Pods-JianChi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChi.release.xcconfig"; sourceTree = "<group>"; };
+		7B0394ACEEA8E627A23C3511B997A8EB /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		80FE0AF7259AA03B6789905BDB551AE8 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		87295F8C672917D143438110A258343F /* Parchment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.xcconfig; sourceTree = "<group>"; };
+		89C683C067116F2A4F25EBCB182923A1 /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		8B503C81AF6187BA241D093C81F6BFE2 /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		8BC4A3FCD48BF19B838A4FBC1973DA22 /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
+		8ECACE5D92D5C8124434081978942886 /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
+		917FCDEC40BB7A7103CBBC02744076BE /* Pods-JianChiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JianChiTests-umbrella.h"; sourceTree = "<group>"; };
+		91C292E2C2A38B78CF1E423FE345A6F9 /* Pods-JianChiUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChiUITests-Info.plist"; sourceTree = "<group>"; };
+		9BEDAA9973974C09C79702087ABAC650 /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
+		9C724B7040AB0110A14E854A8FDF6458 /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7E0DF9BB692365726BF4017AD4E0EC /* PagingStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStateMachine.swift; path = Parchment/Classes/PagingStateMachine.swift; sourceTree = "<group>"; };
+		A6D7AF497CCB2B57DFC8700DE8971918 /* Pods-JianChi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JianChi-dummy.m"; sourceTree = "<group>"; };
+		A7D14D9806A555493E7A93FB024A3614 /* Pods-JianChiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JianChiUITests-umbrella.h"; sourceTree = "<group>"; };
+		ABE86525A0A662FBECB3D6137B64F4C9 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		AC549318B08EB77AFA78451A0B541B62 /* Pods-JianChi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JianChi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADC89A6242C38CB5B07C78FBE89A7CA0 /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
+		AE49C14E4FF8577E7D129F9B8637D225 /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
+		B189D2AF420755785161D277E9D4CEAD /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
+		B49B05C2DD5B715B23D321795D94EF75 /* Pods_JianChiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JianChiUITests.framework; path = "Pods-JianChiUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B560EB03EEC188D39B7E67D78DE5245C /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
+		B62833C0E5A3704E85974F7461B3379E /* Pods-JianChiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JianChiUITests-dummy.m"; sourceTree = "<group>"; };
+		B6E972A3DE2ADD08A838A6B30CB59EF5 /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
+		BD49B1B8CA9A09C495A09B1B9161DF5D /* Pods-JianChi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChi-Info.plist"; sourceTree = "<group>"; };
+		BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCA6CC89CD6BA5A80141CA6D59D7AA1 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		C2800E84ED65A1842DBFCA7B38E48A9D /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		C9F0AC027EACA299BE963887EAFD2547 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
+		D4E57F0B945950056D55EF4F94139AD6 /* Pods-JianChiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JianChiTests-dummy.m"; sourceTree = "<group>"; };
+		D57707048D872EEFE7A8AB6AC84DFDA4 /* PagingEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingEvent.swift; path = Parchment/Enums/PagingEvent.swift; sourceTree = "<group>"; };
+		DA83971092B7863F3F7008E5D062AC9C /* EMPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMPageViewController.swift; path = Parchment/Classes/EMPageViewController.swift; sourceTree = "<group>"; };
+		DDEF7E78446EA21D77328C93F4BF6FE5 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
+		DE9BB0E0FBF74FE00AD078A75C64D0B0 /* Pods-JianChiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FBB3F70D62C2A9EB32DFF2F2D8C88D /* IndexedPagingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingDataSource.swift; path = Parchment/Classes/IndexedPagingDataSource.swift; sourceTree = "<group>"; };
+		E5CF9CBF1A244B25F356D562EEE699F6 /* Pods-JianChiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A0C8292FF75E222D99C039DA4385B7 /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
+		F084A481AAEF2D6C02197B45D1259845 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		F354FF25BB2FB6239E97D6F58EAA5EE4 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		F57C3099629604BCFA97291AD47ECD46 /* Pods-JianChiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JianChiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6A3040B197809C4AB0B3D5026E4D418 /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		F92CBF3A75A213219116025A29D72674 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		FAE52EA24BC72071E8A234F68178E878 /* Pods-JianChi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JianChi-frameworks.sh"; sourceTree = "<group>"; };
+		FD4F9BD275BD0CBBD815133D98DFF4D5 /* Parchment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Parchment-Info.plist"; sourceTree = "<group>"; };
+		FF3C6432AE0966DBEB5691DCAA55F9F0 /* Pods-JianChiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JianChiUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C84C35244DB789A0342CBE0B73AB6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E248DB5999530258295CED7318DE7810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F74A07629372CDE3E9740FD8B5A713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465CF6448333F3DA70F420FAC5C38277 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BAF62D887B178C499FE4BFE896714F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A8FA77B6B733AA481519E7BF4AA344 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4ACE470B477B91C3BD3ECDC487AAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4529C0B8C8B5479AB48184D0111429A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F4A6FB065780CB0D09F89363E55D8C /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				DA83971092B7863F3F7008E5D062AC9C /* EMPageViewController.swift */,
+				54A9349B45F2E216A1CE6A6F32F20524 /* FixedPagingViewController.swift */,
+				E3FBB3F70D62C2A9EB32DFF2F2D8C88D /* IndexedPagingDataSource.swift */,
+				70F186D02DB8BA80E11B67F6950EF817 /* IndexedPagingItem.swift */,
+				487DE61814A699E3B717425CAE72EFF4 /* InvalidationState.swift */,
+				B6E972A3DE2ADD08A838A6B30CB59EF5 /* PagingBorderLayoutAttributes.swift */,
+				C9F0AC027EACA299BE963887EAFD2547 /* PagingBorderOptions.swift */,
+				3590C7665F880141EDC53C880701075D /* PagingBorderView.swift */,
+				482093AA35F25412BC6B1A019DAA58C2 /* PagingCell.swift */,
+				1FE978BF8A7652B3CDC7A705F2AA3A81 /* PagingCellLayoutAttributes.swift */,
+				9BEDAA9973974C09C79702087ABAC650 /* PagingCellViewModel.swift */,
+				ABE86525A0A662FBECB3D6137B64F4C9 /* PagingCollectionViewLayout.swift */,
+				8B503C81AF6187BA241D093C81F6BFE2 /* PagingContentInteraction.swift */,
+				B560EB03EEC188D39B7E67D78DE5245C /* PagingDiff.swift */,
+				ADC89A6242C38CB5B07C78FBE89A7CA0 /* PagingDirection.swift */,
+				56644C30C83260F1B5E1CCBF210193E0 /* PagingDistance.swift */,
+				D57707048D872EEFE7A8AB6AC84DFDA4 /* PagingEvent.swift */,
+				40F0776E5A34ED1BECEFF3D172E402D6 /* PagingIndicatorLayoutAttributes.swift */,
+				3BFE15B7AB624B7DBB5E846CE9C47E9A /* PagingIndicatorMetric.swift */,
+				7B0394ACEEA8E627A23C3511B997A8EB /* PagingIndicatorOptions.swift */,
+				B189D2AF420755785161D277E9D4CEAD /* PagingIndicatorView.swift */,
+				2674508387DE7E9561653A6435A77808 /* PagingInvalidationContext.swift */,
+				AE49C14E4FF8577E7D129F9B8637D225 /* PagingItem.swift */,
+				2B4C57F55D4F7BFFCFA6F809FF5E3F7E /* PagingItems.swift */,
+				8ECACE5D92D5C8124434081978942886 /* PagingLayout.swift */,
+				1FD63F5422BB67F30356DD069B987A55 /* PagingMenuHorizontalAlignment.swift */,
+				2549F1230148118691DBB706F5548E0C /* PagingMenuInteraction.swift */,
+				BFCA6CC89CD6BA5A80141CA6D59D7AA1 /* PagingMenuItemSize.swift */,
+				80FE0AF7259AA03B6789905BDB551AE8 /* PagingMenuItemSource.swift */,
+				89C683C067116F2A4F25EBCB182923A1 /* PagingMenuTransition.swift */,
+				9C724B7040AB0110A14E854A8FDF6458 /* PagingOptions.swift */,
+				8BC4A3FCD48BF19B838A4FBC1973DA22 /* PagingSelectedScrollPosition.swift */,
+				5569E2ACAD19AF90D7ECF8D9E94D9C71 /* PagingSizeCache.swift */,
+				E9A0C8292FF75E222D99C039DA4385B7 /* PagingState.swift */,
+				9E7E0DF9BB692365726BF4017AD4E0EC /* PagingStateMachine.swift */,
+				65618CA2127ED864277DF4DC35D5205E /* PagingTitleCell.swift */,
+				DDEF7E78446EA21D77328C93F4BF6FE5 /* PagingTransition.swift */,
+				F92CBF3A75A213219116025A29D72674 /* PagingView.swift */,
+				25F069859953B5B193EFFD52065E5FC1 /* PagingViewController.swift */,
+				277CAF41E027E482B7A4D9EEE923C57A /* PagingViewControllerDataSource.swift */,
+				3CA2F34DE2D2D10B5778AA136F2A2D6D /* PagingViewControllerDelegate.swift */,
+				F084A481AAEF2D6C02197B45D1259845 /* PagingViewControllerInfiniteDataSource.swift */,
+				638C560BC40EA2B49C20DBF0C9BBA0AF /* Tween.swift */,
+				F354FF25BB2FB6239E97D6F58EAA5EE4 /* UIColor+interpolation.swift */,
+				C2800E84ED65A1842DBFCA7B38E48A9D /* UIEdgeInsets.swift */,
+				2A6897FC7D5418B454122F6386B50E7C /* UIScrollView+near.swift */,
+				22D88E06697E1F4B390B5514DBB710CC /* UIView+constraints.swift */,
+				3202EA136F532E1E9ED644E6EF06B0CC /* Support Files */,
+			);
+			name = Parchment;
+			path = Parchment;
+			sourceTree = "<group>";
+		};
+		156F035B6BF1FFC3639C52BB3222D0ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F37758489BA998F0E71F9ABD18CBC23 /* Pods-JianChi */,
+				31E7EABFC64F53756CFCB22E9699EC16 /* Pods-JianChiTests */,
+				31096074A51939CCDAE8DE20F9D6E824 /* Pods-JianChiUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F37758489BA998F0E71F9ABD18CBC23 /* Pods-JianChi */ = {
+			isa = PBXGroup;
+			children = (
+				5110F63E0801DCCEA75EC3DA7675BE07 /* Pods-JianChi.modulemap */,
+				AC549318B08EB77AFA78451A0B541B62 /* Pods-JianChi-acknowledgements.markdown */,
+				50071A9D48B8DCD7912A88DEAB5C8238 /* Pods-JianChi-acknowledgements.plist */,
+				A6D7AF497CCB2B57DFC8700DE8971918 /* Pods-JianChi-dummy.m */,
+				FAE52EA24BC72071E8A234F68178E878 /* Pods-JianChi-frameworks.sh */,
+				BD49B1B8CA9A09C495A09B1B9161DF5D /* Pods-JianChi-Info.plist */,
+				394287AA7C3120FE50EB74A322AA59FC /* Pods-JianChi-umbrella.h */,
+				490A0AC93DEA7629BFE5D1774FD7E2D6 /* Pods-JianChi.debug.xcconfig */,
+				7A1CCABFD1B1F242DEC535A18B2642F4 /* Pods-JianChi.release.xcconfig */,
+			);
+			name = "Pods-JianChi";
+			path = "Target Support Files/Pods-JianChi";
+			sourceTree = "<group>";
+		};
+		31096074A51939CCDAE8DE20F9D6E824 /* Pods-JianChiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7788337E38AF161CDE53DBA5416D24D8 /* Pods-JianChiUITests.modulemap */,
+				6CF6C24CA190F23CAEDEF829070AFD20 /* Pods-JianChiUITests-acknowledgements.markdown */,
+				58B601C29CBC325CB59D7961C06D7DE2 /* Pods-JianChiUITests-acknowledgements.plist */,
+				B62833C0E5A3704E85974F7461B3379E /* Pods-JianChiUITests-dummy.m */,
+				91C292E2C2A38B78CF1E423FE345A6F9 /* Pods-JianChiUITests-Info.plist */,
+				A7D14D9806A555493E7A93FB024A3614 /* Pods-JianChiUITests-umbrella.h */,
+				DE9BB0E0FBF74FE00AD078A75C64D0B0 /* Pods-JianChiUITests.debug.xcconfig */,
+				FF3C6432AE0966DBEB5691DCAA55F9F0 /* Pods-JianChiUITests.release.xcconfig */,
+			);
+			name = "Pods-JianChiUITests";
+			path = "Target Support Files/Pods-JianChiUITests";
+			sourceTree = "<group>";
+		};
+		31E7EABFC64F53756CFCB22E9699EC16 /* Pods-JianChiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FF63B0DED53695CC614C5FB456531E1 /* Pods-JianChiTests.modulemap */,
+				69AA4F6D3975F71644CEC0FC9E850C6A /* Pods-JianChiTests-acknowledgements.markdown */,
+				F57C3099629604BCFA97291AD47ECD46 /* Pods-JianChiTests-acknowledgements.plist */,
+				D4E57F0B945950056D55EF4F94139AD6 /* Pods-JianChiTests-dummy.m */,
+				2CA5F5CED9B762570C6A14801548A55E /* Pods-JianChiTests-Info.plist */,
+				917FCDEC40BB7A7103CBBC02744076BE /* Pods-JianChiTests-umbrella.h */,
+				E5CF9CBF1A244B25F356D562EEE699F6 /* Pods-JianChiTests.debug.xcconfig */,
+				2090A79E6CBC878C331AC5CBDBA08BBA /* Pods-JianChiTests.release.xcconfig */,
+			);
+			name = "Pods-JianChiTests";
+			path = "Target Support Files/Pods-JianChiTests";
+			sourceTree = "<group>";
+		};
+		3202EA136F532E1E9ED644E6EF06B0CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3040B197809C4AB0B3D5026E4D418 /* Parchment.modulemap */,
+				87295F8C672917D143438110A258343F /* Parchment.xcconfig */,
+				4821BCD67CF677DA0102D7907E1BBCE1 /* Parchment-dummy.m */,
+				FD4F9BD275BD0CBBD815133D98DFF4D5 /* Parchment-Info.plist */,
+				1D5794371C887422C5C241B0D5A2C843 /* Parchment-prefix.pch */,
+				73E8E865E151C84FFB1AD06E41EB3AD6 /* Parchment-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parchment";
+			sourceTree = "<group>";
+		};
+		39AF1130FEB3C2AD865685821ADEA9A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F4A6FB065780CB0D09F89363E55D8C /* Parchment */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCD09635DB4D0069518E7F8AFEE86E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */,
+				5CCFB87BF3BFE38283BA50DBDA6AB96F /* Pods_JianChi.framework */,
+				19EFE413367493038FBBAD22F41EDF20 /* Pods_JianChiTests.framework */,
+				B49B05C2DD5B715B23D321795D94EF75 /* Pods_JianChiUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39AF1130FEB3C2AD865685821ADEA9A7 /* Pods */,
+				BCD09635DB4D0069518E7F8AFEE86E7C /* Products */,
+				156F035B6BF1FFC3639C52BB3222D0ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1807F7806E30EF39CB3F1039DE07EB9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB6208974962B92C53E8FACAAF62BD5 /* Pods-JianChi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732C0D35E0E48809057547C343F0CC6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD0F8A523B7ADAEC535E8C57D521F4 /* Parchment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7889A4DC930D2D478140EA2462730715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C8FEBD135EDC5A67FBD7CFA5CFC62 /* Pods-JianChiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B943C0591473DCD3F91917DBAFC9B21A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF62F9F66A78676A7D3831EE11132A86 /* Pods-JianChiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18184DEEDE7075D999122505659B55E9 /* Parchment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9623BFEEED4347AF5BC4046CED934F30 /* Build configuration list for PBXNativeTarget "Parchment" */;
+			buildPhases = (
+				732C0D35E0E48809057547C343F0CC6C /* Headers */,
+				1CAD1C6181190951DAC5BB75142C6A72 /* Sources */,
+				FA4ACE470B477B91C3BD3ECDC487AAEC /* Frameworks */,
+				C4842F650E63F5656191E3F12AC8DE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parchment;
+			productName = Parchment;
+			productReference = BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		675F10423BE1CC57B1257D4CFCEFE48C /* Pods-JianChiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78D51ADD7F3632E0741A710FD87B976 /* Build configuration list for PBXNativeTarget "Pods-JianChiUITests" */;
+			buildPhases = (
+				B943C0591473DCD3F91917DBAFC9B21A /* Headers */,
+				E8F58A03538C6956B3C67B15D218DB14 /* Sources */,
+				B6F74A07629372CDE3E9740FD8B5A713 /* Frameworks */,
+				A1EE7A63E7020F8AFC7C89F82F0795E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5449EF3316E2E5BD0B0E899CAA045D /* PBXTargetDependency */,
+			);
+			name = "Pods-JianChiUITests";
+			productName = "Pods-JianChiUITests";
+			productReference = B49B05C2DD5B715B23D321795D94EF75 /* Pods_JianChiUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		997E883F4628C787B003CC4A9954C9DE /* Pods-JianChi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62954A30A107D9CCE22DD35D8E38BF0A /* Build configuration list for PBXNativeTarget "Pods-JianChi" */;
+			buildPhases = (
+				1807F7806E30EF39CB3F1039DE07EB9E /* Headers */,
+				AECB014E7218B3761556EEF2E967848B /* Sources */,
+				4C84C35244DB789A0342CBE0B73AB6FE /* Frameworks */,
+				0BE455E4EE3125F41515A46AFB0405C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD5C7E264466E875CD2DEA63AC6D0C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JianChi";
+			productName = "Pods-JianChi";
+			productReference = 5CCFB87BF3BFE38283BA50DBDA6AB96F /* Pods_JianChi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7D72777764B795DAF3DBB23BD9E6B82 /* Pods-JianChiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BC9545243C51309B7EECD80EDF44FE /* Build configuration list for PBXNativeTarget "Pods-JianChiTests" */;
+			buildPhases = (
+				7889A4DC930D2D478140EA2462730715 /* Headers */,
+				D4FCC12ACF9EFCB4651C471E3B5546AD /* Sources */,
+				D1BAF62D887B178C499FE4BFE896714F /* Frameworks */,
+				74C4771CA4034238374F0CAA6D32AC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515E5929DF0E16272B72E8B98DA4C2BB /* PBXTargetDependency */,
+			);
+			name = "Pods-JianChiTests";
+			productName = "Pods-JianChiTests";
+			productReference = 19EFE413367493038FBBAD22F41EDF20 /* Pods_JianChiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BCD09635DB4D0069518E7F8AFEE86E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18184DEEDE7075D999122505659B55E9 /* Parchment */,
+				997E883F4628C787B003CC4A9954C9DE /* Pods-JianChi */,
+				C7D72777764B795DAF3DBB23BD9E6B82 /* Pods-JianChiTests */,
+				675F10423BE1CC57B1257D4CFCEFE48C /* Pods-JianChiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE455E4EE3125F41515A46AFB0405C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4771CA4034238374F0CAA6D32AC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE7A63E7020F8AFC7C89F82F0795E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4842F650E63F5656191E3F12AC8DE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAD1C6181190951DAC5BB75142C6A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A2F091077051108C1C401A85C8469C /* EMPageViewController.swift in Sources */,
+				FBFEADB484CFF481E84830B6792F8922 /* FixedPagingViewController.swift in Sources */,
+				1573F20570335DE56E78257EBF9B8256 /* IndexedPagingDataSource.swift in Sources */,
+				91D3AB8B27E5306AADAD7583CE991D45 /* IndexedPagingItem.swift in Sources */,
+				A11FCED6C438C5001A5F643E73C6A9DC /* InvalidationState.swift in Sources */,
+				9EB1D9AE6FB9DF4CE3D088374C84A1D1 /* PagingBorderLayoutAttributes.swift in Sources */,
+				8F01CAFD2544E2200E3A72E6F0179623 /* PagingBorderOptions.swift in Sources */,
+				C8D7B8A9C961DD3518B0685E3C1928D4 /* PagingBorderView.swift in Sources */,
+				1BEC983282ECB260BFCC253F25B3EADF /* PagingCell.swift in Sources */,
+				D1D5159B03914B091C00A4482AA3D759 /* PagingCellLayoutAttributes.swift in Sources */,
+				7C5377C9666CF5FFA91FACEA1DA1959A /* PagingCellViewModel.swift in Sources */,
+				D3D7639DBEDC9A4A6EF8D7D912B797A7 /* PagingCollectionViewLayout.swift in Sources */,
+				73490428D03021FB72184F3FC4F32D96 /* PagingContentInteraction.swift in Sources */,
+				A0B1CAEC6460A6B8A421AA80AE2B60AD /* PagingDiff.swift in Sources */,
+				AA0A7F72F6F3D8B2DD64EE8BF42E5AD5 /* PagingDirection.swift in Sources */,
+				C91631BBF5C2EA03D78F84F520389E17 /* PagingDistance.swift in Sources */,
+				42B3DC0A19A64E4FA7AC2C2948936559 /* PagingEvent.swift in Sources */,
+				AFE5C10C376C277FAEA7B412A546A973 /* PagingIndicatorLayoutAttributes.swift in Sources */,
+				D702EEF48E67ED5C04E3B36878852881 /* PagingIndicatorMetric.swift in Sources */,
+				40B5F1893B16730050435DDA9ECA1502 /* PagingIndicatorOptions.swift in Sources */,
+				847B8DEF63729E744035C52CBF843657 /* PagingIndicatorView.swift in Sources */,
+				E6BC7D8DAB2C1CF27AF123B12192A9BB /* PagingInvalidationContext.swift in Sources */,
+				8C4B7CA54D6E886663B0C58192258E30 /* PagingItem.swift in Sources */,
+				1303E6EA741EACD7846141ED9031F23E /* PagingItems.swift in Sources */,
+				0732C39B7EFAE6D5EBF58BE96B2DC544 /* PagingLayout.swift in Sources */,
+				4115DBB00FB09C2D7CAA8C8BA4CAAAA3 /* PagingMenuHorizontalAlignment.swift in Sources */,
+				7614AE5D7692CFBE87130C62973B46C8 /* PagingMenuInteraction.swift in Sources */,
+				844224876DCC95062DDF1728E0CFACB6 /* PagingMenuItemSize.swift in Sources */,
+				25F2B340B64A10CE77E76FF9CBEF251B /* PagingMenuItemSource.swift in Sources */,
+				2915D6AFE77CA2DF94355E7E67803039 /* PagingMenuTransition.swift in Sources */,
+				C7065FB582977DD26E216C133AD7BF85 /* PagingOptions.swift in Sources */,
+				853F9A3B293BB61B6C6FA915B82FDE80 /* PagingSelectedScrollPosition.swift in Sources */,
+				FAE7397A2905180D07216EE67CE6CF68 /* PagingSizeCache.swift in Sources */,
+				A9FEE82B1197EB42876D9CBF4EBBBBE2 /* PagingState.swift in Sources */,
+				89462BE029C799D254C3248240AA68AF /* PagingStateMachine.swift in Sources */,
+				5A66D7C01DC654F9A6A71C7BA43C1B12 /* PagingTitleCell.swift in Sources */,
+				DFF92E0A875CD6361268905871CE419A /* PagingTransition.swift in Sources */,
+				D3F4903BD68AA435F1D3B0EE64762CA8 /* PagingView.swift in Sources */,
+				3987FAE32D0896764FE8182C0C01CF30 /* PagingViewController.swift in Sources */,
+				725496F84F936CE13E1EE592D38503EF /* PagingViewControllerDataSource.swift in Sources */,
+				B5E2B5AD554C847CF097D789852A69D0 /* PagingViewControllerDelegate.swift in Sources */,
+				59BBCA3E42BC9B672719DABADD4F757B /* PagingViewControllerInfiniteDataSource.swift in Sources */,
+				1B43DFF37E2B0996E6BF14D463865174 /* Parchment-dummy.m in Sources */,
+				33008FCB9A93B9D2526C4BB61B6BA28F /* Tween.swift in Sources */,
+				BB73FEAF442D677A1489C574B0A03EF6 /* UIColor+interpolation.swift in Sources */,
+				4BE99EFDA1F5D070EA244FCB9A0F40F0 /* UIEdgeInsets.swift in Sources */,
+				DB8D341BB7FAF714CA034BED403F597E /* UIScrollView+near.swift in Sources */,
+				20F35680B868A2BA7F2372981AA4762B /* UIView+constraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECB014E7218B3761556EEF2E967848B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E79799BE2A0EEE2C0829F74C078150 /* Pods-JianChi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FCC12ACF9EFCB4651C471E3B5546AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11102B4B9E097D2B5BC63EBB459F1426 /* Pods-JianChiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F58A03538C6956B3C67B15D218DB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E8BEE201122A67B65A410D7A208DEE /* Pods-JianChiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D5449EF3316E2E5BD0B0E899CAA045D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JianChi";
+			target = 997E883F4628C787B003CC4A9954C9DE /* Pods-JianChi */;
+			targetProxy = 8CEBEFE67D4843291AEB2641390EA416 /* PBXContainerItemProxy */;
+		};
+		4DD5C7E264466E875CD2DEA63AC6D0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parchment;
+			target = 18184DEEDE7075D999122505659B55E9 /* Parchment */;
+			targetProxy = E0263CAAD5BA98BAF639AC2780C758F9 /* PBXContainerItemProxy */;
+		};
+		515E5929DF0E16272B72E8B98DA4C2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JianChi";
+			target = 997E883F4628C787B003CC4A9954C9DE /* Pods-JianChi */;
+			targetProxy = 1A7728C543F9B560622CB9EED60C4CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1373F4B17D62284B1C60CF819CAADA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3C6432AE0966DBEB5691DCAA55F9F0 /* Pods-JianChiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D98F9F30794E4BD6F04CA8CC9C8587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87295F8C672917D143438110A258343F /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C353286889FE443AB13AC83459C930A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87295F8C672917D143438110A258343F /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70A88E64C6F613A1AF6AB12DCEA451A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CF9CBF1A244B25F356D562EEE699F6 /* Pods-JianChiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A397AD142CBAFB28909167A2E3BEA02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1CCABFD1B1F242DEC535A18B2642F4 /* Pods-JianChi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChi/Pods-JianChi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChi/Pods-JianChi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8DDB9D3D720D79814B5DE60D6A2435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9BB0E0FBF74FE00AD078A75C64D0B0 /* Pods-JianChiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChiUITests/Pods-JianChiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8686B90986FD4D62020F025C9585360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490A0AC93DEA7629BFE5D1774FD7E2D6 /* Pods-JianChi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChi/Pods-JianChi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChi/Pods-JianChi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC07017399E951947E589870AB1FEA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2090A79E6CBC878C331AC5CBDBA08BBA /* Pods-JianChiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JianChiTests/Pods-JianChiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62954A30A107D9CCE22DD35D8E38BF0A /* Build configuration list for PBXNativeTarget "Pods-JianChi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8686B90986FD4D62020F025C9585360 /* Debug */,
+				A397AD142CBAFB28909167A2E3BEA02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9623BFEEED4347AF5BC4046CED934F30 /* Build configuration list for PBXNativeTarget "Parchment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C353286889FE443AB13AC83459C930A /* Debug */,
+				5D98F9F30794E4BD6F04CA8CC9C8587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BC9545243C51309B7EECD80EDF44FE /* Build configuration list for PBXNativeTarget "Pods-JianChiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A88E64C6F613A1AF6AB12DCEA451A4 /* Debug */,
+				FC07017399E951947E589870AB1FEA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78D51ADD7F3632E0741A710FD87B976 /* Build configuration list for PBXNativeTarget "Pods-JianChiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DDB9D3D720D79814B5DE60D6A2435C /* Debug */,
+				1373F4B17D62284B1C60CF819CAADA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

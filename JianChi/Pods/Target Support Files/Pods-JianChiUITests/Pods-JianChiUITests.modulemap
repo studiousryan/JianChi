@@ -1,0 +1,6 @@
+framework module Pods_JianChiUITests {
+  umbrella header "Pods-JianChiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

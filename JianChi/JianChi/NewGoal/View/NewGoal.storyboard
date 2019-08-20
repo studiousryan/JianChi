@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cR1-Q4-DOU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jnD-pp-kL4">
+            <objects>
+                <viewController id="ndy-5K-QHX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g9M-xi-rEP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JBj-8g-1Iz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oZf-PW-Rjh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ev-Bw-smG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1291.304347826087" y="141.96428571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Aew-dz-aQj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cR1-Q4-DOU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="round_add" id="oR7-5d-yVa">
+                        <color key="badgeColor" red="0.15481075644493103" green="0.48716795444488525" blue="0.7789275050163269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W2U-6S-qZk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ndy-5K-QHX" kind="relationship" relationship="rootViewController" id="PHr-OZ-WWT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j68-WR-yq7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381.15942028985512" y="141.96428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="round_add" width="32" height="32"/>
+    </resources>
+</document>
