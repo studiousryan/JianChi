@@ -25,11 +25,9 @@ class HomeVC: UIViewController {
         // controller and constrain it to the edges of the view.
         addChild(pagingViewController)
         view.addSubview(pagingViewController.view)
-//        view.constrainToEdges(pagingViewController.view)
         
         
         pagingViewController.view.translatesAutoresizingMaskIntoConstraints = false
-        
         NSLayoutConstraint.activate([
             pagingViewController.view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             pagingViewController.view.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),

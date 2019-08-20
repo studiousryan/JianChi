@@ -147,7 +147,6 @@
 				94204A80230BEECE007C5668 /* View */,
 				94204A81230BEECE007C5668 /* Controller */,
 				9475D2EE230BD4E200FC89D5 /* JianChi.xcdatamodeld */,
-				9475D2F6230BD4E400FC89D5 /* Info.plist */,
 				9475D2F1230BD4E400FC89D5 /* Assets.xcassets */,
 				9475D2E7230BD4E200FC89D5 /* AppDelegate.swift */,
 				9475D2EB230BD4E200FC89D5 /* Main.storyboard */,
@@ -269,6 +268,7 @@
 		9475D2E6230BD4E200FC89D5 /* JianChi */ = {
 			isa = PBXGroup;
 			children = (
+				9475D2F6230BD4E400FC89D5 /* Info.plist */,
 				94204A72230BEC20007C5668 /* Main */,
 				94204A70230BEC20007C5668 /* Home */,
 				94204A71230BEC20007C5668 /* NewGoal */,
